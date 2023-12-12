@@ -13,20 +13,21 @@
 /* Altezza Header */
 .recipe-header {
     height: 80px;
-    background-color: black;
+    background-color: #ffffff;
 }
 
 /* Altezza Main */
 .recipe-content {
     height: calc(100vh - 80px);
-    background-color: aqua;
+    background-color: #F8F9FA;
 }
 
 /* Recipiente Barra Laterale */
 .recipe-aside {
     flex-basis: 80px;
     flex-shrink: 0;
-    background-color: blanchedalmond;
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #12293E;
 }
 
 /* Recipiente Attività */
