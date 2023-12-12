@@ -1,5 +1,4 @@
 /* ?Utility */
-
 /* Flex */
 .flex {
     display: flex;
@@ -10,6 +9,8 @@
     display: none;
 }
 
+
+/* ?Generic */
 /* Altezza Header */
 .recipe-header {
     height: 80px;
@@ -37,8 +38,14 @@
 }
 
 
-/* ?MEDRIA QUERY*/
+/* TODO: Inizio */
 
+/* Header Attività */
+.header-activity {
+    background-color: #1B72E8;
+}
+
+/* ?MEDRIA QUERY*/
 @media screen and (min-width: 992px) {
     
     /* Grandezza Aside */
