@@ -38,6 +38,7 @@
 }
 
 
+
 /* TODO: Inizio */
 
 /* Header Attività */
@@ -45,11 +46,15 @@
     background-color: #1B72E8;
 }
 
+.title-table {
+    background-color: #342e2e;
+}
+
 /* ?MEDRIA QUERY*/
 @media screen and (min-width: 992px) {
     
     /* Grandezza Aside */
     .recipe-aside {
-        flex-basis: 200px;
+        flex-basis: 150px;
     }
 }
