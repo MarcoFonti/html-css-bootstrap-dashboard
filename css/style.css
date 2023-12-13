@@ -9,6 +9,11 @@
     display: none;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 
 /* ?Generic */
 /* Altezza Header */
@@ -60,6 +65,10 @@
     padding:3px 10px;
 }
 
+.w-80 {
+    width: 80%;
+}
+
 
 
 /* ?MEDRIA QUERY*/
@@ -82,4 +91,5 @@
     .large-display {
         display: inline-block;
     }
+
 }
