@@ -46,15 +46,19 @@
     background-color: #1B72E8;
 }
 
-.title-table {
-    background-color: #342e2e;
-}
 
 .recipe-image {
     width: 20px;
     margin:0px 5px;
 }
 
+.button-header-activity {
+    color: #ffffff;
+    background-color: #165BBA;
+    text-decoration: none;
+    border-radius: 10px;
+    padding:3px 10px;
+}
 
 
 
