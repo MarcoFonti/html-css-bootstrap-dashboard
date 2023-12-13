@@ -77,58 +77,68 @@
                   <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                   <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
-                  <form class="input-group mb-3 d-flex flex-column">
-                    <div>
-                      <label for="firstname">First name</label>
-                      <input type="text" id="firstname" name="firstname" placeholder="Nome">
+                <div class="offcanvas-body p-3">
+                  <form class="input-group d-flex flex-column row row-gap-3">
+                    <div class="recipe-fullname d-flex gap-3">
+                      <div class="col-6">
+                        <label class="d-block" for="firstname">Nome</label>
+                        <input class="w-100" type="text" id="firstname" name="firstname" placeholder="Nome">
+                      </div>
+                      <div class="col-6">
+                        <label class="d-block" for="lastname">Cognome</label>
+                        <input class="w-100" type="text" id="lastname" name="lastname" placeholder="Cognome">
+                      </div>
                     </div>
-                    <div>
-                      <label for="lastname">Last Name</label>
-                      <input type="text" id="lastname" name="lastname" placeholder="Cognome">
+                    <div class="recipe-info d-flex gap-3">
+                      <div class="col-6">
+                        <label class="d-block" for="email">Email</label>
+                        <input class="w-100" type="text" id="email" name="email" placeholder="Email">
+                      </div>
+                      <div class="col-6">
+                        <label class="d-block" for="password">Password</label>
+                        <input class="w-100" type="password" id="password" name="password" placeholder="Password">
+                      </div>
                     </div>
-                    <div class="input-group mb-3">
-                      <span class="input-group-text">@</span>
-                      <input type="text" class="form-control" placeholder="Username" aria-label="Username">
+                    <div class="col-12">
+                      <label class="d-block" for="indirizo">Indirizo</label>
+                      <input type="text" id="indirizo" class="w-100" placeholder="Indirizo">
                     </div>
-                    <div>
-                      <label for="password">Password</label>
-                      <input type="password" id="password" name="password" placeholder="Cognome" required value="Lanci" pattern="">
+                    <div class="recipe-city d-flex gap-3">
+                      <div class="col-6">
+                        <label class="d-block" for="citta">Città</label>
+                        <input class="w-100" type="text" id="citta" name="citta" placeholder="Città">
+                      </div>
+                      <div class="col-6 d-flex gap-3">
+                        <div>
+                          <label class="d-block" for="Country">Stato</label>
+                          <select name="Country" id="Country" required>
+                            <option value="">Seleziona un valore</option>
+                            <option value="it">Italia</option>
+                            <option value="fr" selected>Francia</option>
+                            <option value="es">Spagna</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label class="d-block" for="cap">Cap</label>
+                          <input class="w-50" type="text" id="cap" name="cap" placeholder="Cap">
+                        </div>
+                      </div>
                     </div>
-                    <div class="input-group flex-nowrap">
-                      <label for="indirizo">Indirizo</label>
-                      <input type="text" id="indirizo" class="form-control" placeholder="Indirizo" aria-label="Username">
-                    </div>
-                    <div>
-                      <label for="citta">Città</label>
-                      <input type="text" id="citta" name="citta" placeholder="Città">
-                    </div>
-                    <div>
-                      <label for="Country">Country</label>
-                      <select name="Country" id="Country" required>
-                        <option value="">Seleziona un valore</option>
-                        <option value="it">Italia</option>
-                        <option value="fr" selected>Francia</option>
-                        <option value="es">Spagna</option>
-                      </select>
-                    </div>
-                    <div>
-                      <label for="cap">Cap</label>
-                      <input type="text" id="cap" name="cap" placeholder="Cap">
-                    </div>
-                    <div>
+                    <div class="col-12">
                       <div class="input-group mb-3">
-                        <label for="inputGroupFile01">Foto</label>
+                        <label class="d-block w-100" for="inputGroupFile01">Foto</label>
                         <input type="file" class="form-control" id="inputGroupFile01">
                       </div>
                     </div>
-                    <div>
+                    <div class="col-12">
                       <label>
                       <input type="checkbox" value="yes" name="privacy-accepted">
                         Accetto i termini</label>
                     </div>
+                    <div class="recipe-button d-flex gap-2 col-12">
                       <button type="button" class="btn btn-primary">Primary</button>
                       <button type="button" class="btn btn-warning">Warning</button>
+                    </div>
                   </form>
                 </div>
               </div>

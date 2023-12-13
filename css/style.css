@@ -3,14 +3,10 @@
 .flex {
     display: flex;
 }
-
 /* Elementi solo a Schermo grande */
 .large-display {
     display: none;
 }
-
-
-
 
 /* ?Generic */
 /* Altezza Header */
@@ -18,13 +14,11 @@
     height: 80px;
     background-color: #ffffff;
 }
-
 /* Altezza Main */
 .recipe-content {
     height: calc(100vh - 80px);
     background-color: #F8F9FA;
 }
-
 /* Recipiente Barra Laterale */
 .recipe-aside {
     flex-basis: 80px;
@@ -32,47 +26,32 @@
     background-image: url(../img/sidebar-bg.png);
     background-color: #12293E;
 }
-
 /* Recipiente Attività */
 .recipe-activity {
     flex-grow: 1;
     overflow: auto;
 }
 
-
-
 /* TODO: Inizio */
-
 /* Header Attività */
 .header-activity {
     background-color: #1B72E8;
 }
-
-
+/* Imaggine Classi */
 .recipe-image {
     width: 20px;
     margin:0px 5px;
 }
-
+/* Immagine Logo */
 .image-logo {
     width: 50px;
 }
-
+/*Grandezza Barra di ricerca*/
 .w-80 {
     width: 80%;
 }
 
-
-
 /* ?MEDRIA QUERY*/
-
-@media screen and (min-width: 768px) {
-     /* Elementi solo a Schermo grande */
-     .large-display {
-        
-    }
-}
-
 @media screen and (min-width: 992px) {
     
     /* Grandezza Aside */
@@ -80,11 +59,7 @@
         flex-basis: 150px;
     }
 
-    /* Elementi solo a Schermo grande */
-    .large-display {
-        display: inline-block;
-    }
-
+    /* Grandezza Barra di ricerca */
     .w-80 {
         width: 70%;
     }
