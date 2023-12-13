@@ -50,11 +50,32 @@
     background-color: #342e2e;
 }
 
+.recipe-image {
+    width: 20px;
+    margin:0px 5px;
+}
+
+
+
+
 /* ?MEDRIA QUERY*/
+
+@media screen and (min-width: 768px) {
+     /* Elementi solo a Schermo grande */
+     .large-display {
+        
+    }
+}
+
 @media screen and (min-width: 992px) {
     
     /* Grandezza Aside */
     .recipe-aside {
         flex-basis: 150px;
+    }
+
+    /* Elementi solo a Schermo grande */
+    .large-display {
+        display: inline-block;
     }
 }
