@@ -67,11 +67,62 @@
                   <button class="btn text-white border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"> <i class="fa-regular fa-square-plus fa-3x"></i></button>
                   <div class="offcanvas offcanvas-end w-50 my-off" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header">
-                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
                       <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
-                    ...
+                      <div class="input-group mb-3">
+                        <div>
+                          <label for="firstname">First name</label>
+                          <input type="text" id="firstname" name="firstname" placeholder="Nome">
+                        </div>
+                        <div>
+                          <label for="lastname">Last Name</label>
+                          <input type="text" id="lastname" name="lastname" placeholder="Cognome">
+                        </div>
+                        <div class="input-group mb-3">
+                          <span class="input-group-text" id="basic-addon1">@</span>
+                          <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                        </div>
+                        <div>
+                          <label for="password">Password</label>
+                          <input type="password" id="password" name="password" placeholder="Cognome" required value="Lanci" pattern="">
+                        </div>
+                        <div class="input-group flex-nowrap">
+                          <label for="indirizo">Indirizo</label>
+                          <input type="text" id="indirizo" class="form-control" placeholder="Indirizo" aria-label="Username" aria-describedby="addon-wrapping">
+                        </div>
+                        <div>
+                          <label for="citta">Città</label>
+                          <input type="text" id="citta" name="citta" placeholder="Città">
+                        </div>
+                        <div>
+                          <label for="Country">Country</label>
+                          <select name="Country" id="Country" required>
+                            <option value="">Seleziona un valore</option>
+                            <option value="it">Italia</option>
+                            <option value="fr" selected>Francia</option>
+                            <option value="es">Spagna</option>
+                          </select>
+                        </div>
+                        <div>
+                          <label for="cap">Cap</label>
+                          <input type="text" id="cap" name="cap" placeholder="Cap">
+                        </div>
+                        <div>
+                          <div class="input-group mb-3">
+                            <label for="inputGroupFile01">Foto</label>
+                            <input type="file" class="form-control" id="inputGroupFile01">
+                          </div>
+                        </div>
+                        <div>
+                          <label>
+                          <input type="checkbox" value="yes" name="privacy-accepted">
+                          Accetto i termini</label>
+                        </div>
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-warning">Warning</button>
+                      </div>
                     </div>
                   </div>
                 </div>
